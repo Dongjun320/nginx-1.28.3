@@ -12,3 +12,4 @@
 2026/04/14 09:29:15 [emerg] 13468#11968: CreateDirectory() "C:\git_clone\wokrspace_frontend\nginx-1.28.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
 2026/04/14 09:29:29 [emerg] 4080#7236: CreateDirectory() "C:\git_clone\wokrspace_frontend\nginx-1.28.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
 2026/04/14 09:29:34 [emerg] 5784#5668: CreateDirectory() "C:\git_clone\wokrspace_frontend\nginx-1.28.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2026/04/14 09:32:15 [error] 3296#7552: *1 CreateFile() "c:\nginx-1.28.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
