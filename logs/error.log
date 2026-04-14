@@ -24,3 +24,8 @@
 2026/04/14 09:57:41 [notice] 1732#5852: signal process started
 2026/04/14 09:57:41 [error] 1732#5852: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
 2026/04/14 09:58:07 [notice] 10080#9412: signal process started
+2026/04/14 10:07:14 [error] 8224#2452: *4 CreateFile() "C:\nginx-1.28.3/html/02/hello.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/hello.html HTTP/1.1", host: "localhost"
+2026/04/14 10:07:15 [error] 8224#2452: *4 CreateFile() "C:\nginx-1.28.3/html/02/hello.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/hello.html HTTP/1.1", host: "localhost"
+2026/04/14 10:07:15 [error] 8224#2452: *4 CreateFile() "C:\nginx-1.28.3/html/02/hello.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/hello.html HTTP/1.1", host: "localhost"
+2026/04/14 10:07:16 [error] 8224#2452: *4 CreateFile() "C:\nginx-1.28.3/html/02/hello.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/hello.html HTTP/1.1", host: "localhost"
+2026/04/14 10:15:55 [error] 8224#2452: *10 CreateFile() "C:\nginx-1.28.3/html/.well-known/appspecific/com.chrome.devtools.json" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost"
