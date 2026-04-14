@@ -13,3 +13,11 @@
 2026/04/14 09:29:29 [emerg] 4080#7236: CreateDirectory() "C:\git_clone\wokrspace_frontend\nginx-1.28.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
 2026/04/14 09:29:34 [emerg] 5784#5668: CreateDirectory() "C:\git_clone\wokrspace_frontend\nginx-1.28.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
 2026/04/14 09:32:15 [error] 3296#7552: *1 CreateFile() "c:\nginx-1.28.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/04/14 09:51:06 [error] 3296#7552: *4 CreateFile() "c:\nginx-1.28.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.0.28, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/"
+2026/04/14 09:51:10 [error] 3296#7552: *5 CreateFile() "c:\nginx-1.28.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.0.60, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/"
+2026/04/14 09:54:48 [notice] 7920#13176: signal process started
+2026/04/14 09:54:48 [error] 7920#13176: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
+2026/04/14 09:55:06 [notice] 5080#3936: signal process started
+2026/04/14 09:55:06 [error] 5080#3936: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
+2026/04/14 09:55:07 [notice] 7364#13972: signal process started
+2026/04/14 09:55:07 [error] 7364#13972: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
