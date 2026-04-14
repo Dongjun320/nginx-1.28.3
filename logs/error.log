@@ -21,3 +21,6 @@
 2026/04/14 09:55:06 [error] 5080#3936: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
 2026/04/14 09:55:07 [notice] 7364#13972: signal process started
 2026/04/14 09:55:07 [error] 7364#13972: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
+2026/04/14 09:57:41 [notice] 1732#5852: signal process started
+2026/04/14 09:57:41 [error] 1732#5852: OpenEvent("Global\ngx_stop_13016") failed (5: Access is denied)
+2026/04/14 09:58:07 [notice] 10080#9412: signal process started
