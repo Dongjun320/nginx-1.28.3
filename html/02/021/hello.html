@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>helloworld 기초0414</title>
+    <style>
+        table, th , td{
+            border: 1px solid #ccc;
+            border-collapse : collapse;
+        }
+        th, td{
+            padding: 10px, 20px;
+        }
+    </style>
+    <title> html 기초 글로벌인 </title>
 </head>
 <body>
+    <!-- 본문 내용 관련
     <p>  
         <strong>첫번째 단락</strong>
         <hr>
@@ -13,7 +23,6 @@
     </p>
     <hr>
     <blockquote><em><p>두번째 단락</p></em></blockquote>
-    <!--여기는 주석 입니다. -->
     <d1>
         <dt>사과</dt>
         <dd>
@@ -26,25 +35,39 @@
             과즙이 아주 많아요.
         </dd>
     </d1>
+-->
+
+    <!-- 테이블 관련
     <table>
-        <tr>
-            <th>음식</th>
-            <th>취미</th>
-            <th>과목</th>
-        </tr>
-        <tr>
-            <td>짜장면</td>
-            <td>음악감상</td>
-            <td>국어</td>
-        </tr>
-        <tr>
-            <th>짬뽕</th>
-            <th>영화감상</th>
-            <th>수학</th>
-        </tr>
+        <colgroup>
+            <col>
+            <col>
+            <col span="1" style="background-color: aqua;"> 
+        </colgroup>
+        <caption>나의 소개</caption>
+        <thead>
+            <tr>
+                <th>음식</th>
+                <th>취미</th>
+                <th>과목</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">짜장면</td>
+                <td>음악감상</td>
+                <td rowspan="2">국어</td>
+            </tr>
+            <tr>
+                <th>짬뽕</th>
+                <th>영화감상</th>
+                <th>수학</th>
+            </tr>
+        </tbody>
     </table>
+    -->
+
+    <!--이미지 태그 관련-->
+    <img src="image/images.jpg" alt="이미지 안나옴">
 </body>                    
-<footer>
-    <i><h1>전화번호 010-0000-0000</h1></i>
-</footer> 
 </html>
