@@ -252,3 +252,4 @@
 2026/04/16 11:08:19 [error] 12608#15280: *16 CreateFile() "c:\nginx-1.28.3/html/02/021/image3.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/021/image3.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/02/021/hello.html"
 2026/04/16 11:08:19 [error] 12608#15280: *16 CreateFile() "c:\nginx-1.28.3/html/02/021/image3.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/021/image3.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/02/021/hello.html"
 2026/04/16 11:08:19 [error] 12608#15280: *16 CreateFile() "c:\nginx-1.28.3/html/02/021/image3.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /02/021/image3.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/02/021/hello.html"
+2026/04/16 16:53:20 [notice] 9796#8068: signal process started
